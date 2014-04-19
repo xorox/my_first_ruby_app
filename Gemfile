@@ -48,3 +48,10 @@ end
 
 # Ruby version
 ruby '2.0.0'
+
+# Support all heroku plugins
+gem 'rails_12factor'
+
+# Unicorn webserver; supports parallel processing
+gem 'unicorn'
+
